@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>404 Not Found | nixCraft</title>
+<style>
+body{font:14px Helvetica,sans-serif;}
+</style>
+<body>
+<center>
+	<p><a href="https://www.cyberciti.biz/"><img src="https://www.cyberciti.biz/media/new/cms/2017/06/new-nixcraft-logo-cyberciti.biz_.png" alt="nixCraft Logo" border="0"></a></p>
+<h1>HTTP Error/404 - Page Not Found!1</h1>
+It could be you, or it could be us, but there's no page here. Maybe try a search?
+<p>
+<iframe src="https://duckduckgo.com/search.html?width=280&site=cyberciti.biz&prefill=Type query and hit enter" style="overflow:hidden;margin:0;padding:0;width:350px;height:40px;" frameborder="0"></iframe><br/>
+<small>(Javascript must be enabled to search work properly)</small>
+</p>
+<h2>Report the broken link:</h2>
+🐧 If you feel like it, mail the url, and where ya came from to <a href="mailto:webmaster@cyberciti.biz">webmaster@cyberciti.biz</a> 🐧
+<hr>
+🥰 Powerd by Nginx, Ubuntu and Alpine Linux 🥰
+</center>
+</body>
+</html>
