@@ -12,6 +12,9 @@
 - [Tailscale DERP 中转服务器搭建指南](tailscale-derp-guide.md) - 自建 Tailscale DERP 中转服务器的完整教程
 - [Proxmox VE 安装 U 盘制作指南](proxmox-ve-usb-creation-guide.md) - 在 macOS/Windows/Linux 下创建 Proxmox VE 安装启动盘的详细步骤
 - [Proxmox VE 8 安装指南](proxmox-ve8-installation-guide.md) - Proxmox VE 8 的完整安装流程、初始配置和最佳实践
+- [模型训练环境配置指南](model-training-environment-setup.md) - 机器学习模型训练环境的配置和优化指南
+- [Ubuntu远程桌面配置指南](ubuntu-remote-desktop-guide.md) - Ubuntu系统中配置远程桌面访问的方法
+- [GitHub SSH 连接设置指南](github-ssh-setup-guide.md) - 解决GitHub连接问题，配置SSH密钥认证的完整教程
 
 ## 主要特性
 
