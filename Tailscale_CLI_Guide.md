@@ -4,6 +4,7 @@
 
 ```bash
 tailscale up --netfilter-mode=off --advertise-routes=局域网网段 --accept-routes
+tailscale up --netfilter-mode=off --advertise-routes=xxxx --accept-routes
 ```
 
 ### 命令解析
