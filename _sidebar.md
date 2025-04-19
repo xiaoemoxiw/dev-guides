@@ -3,6 +3,7 @@
 * [首页](/)
 * [Tailscale 命令行玩法](Tailscale_CLI_Guide.md)
 * [OpenWrt静态路由配置](static-routing.md)
+* [网络路由故障排查指南](network-route-troubleshooting-guide.md)
 * [Windows路由表更新指南](windows-routing.md) 
 * [Tailscale DERP 中转服务器搭建指南](tailscale-derp-guide.md)
 * [Proxmox VE 安装 U 盘制作指南](proxmox-ve-usb-creation-guide.md)

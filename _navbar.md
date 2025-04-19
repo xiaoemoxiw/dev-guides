@@ -4,6 +4,7 @@
 
 * 路由配置
   * [OpenWrt静态路由配置](/static-routing.md)
+  * [网络路由故障排查指南](/network-route-troubleshooting-guide.md)
   * [Windows路由表更新指南](/windows-routing.md) 
 
 * Proxmox 虚拟化
@@ -16,6 +17,7 @@
 * 开发环境
   * [GitHub SSH 连接设置指南](/github-ssh-setup-guide.md) 
   * [模型训练环境配置指南](/model-training-environment-setup.md) 
+  * [Ubuntu 中文输入法安装指南](/ubuntu-chinese-input-guide.md)
 
 * AI 系统开发
   * [视频AI笔记生成系统开发指南](/video-ai-notes-system-guide.md) 
