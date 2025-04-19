@@ -9,3 +9,4 @@
 * [Proxmox VE 8 安装指南](proxmox-ve8-installation-guide.md) 
 * [模型训练环境配置指南](model-training-environment-setup.md) 
 * [Ubuntu远程桌面配置指南](ubuntu-remote-desktop-guide.md) 
+* [GitHub SSH 连接设置指南](github-ssh-setup-guide.md) 
