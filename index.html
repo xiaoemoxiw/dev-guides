@@ -15,11 +15,122 @@
       name: 'Documentation',
       repo: '',
       loadSidebar: true,
+      loadNavbar: true,
       subMaxLevel: 3,
-      auto2top: true
+      auto2top: true,
+      copyCode: {
+        buttonText: 'Copy',
+        errorText: 'Error',
+        successText: 'Copied!'
+      }
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- docsify-copy-code -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  
+  <!-- 自定义样式 - 放在最后确保优先级 -->
+  <style>
+    /* 导航栏样式 */
+    .app-nav {
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      right: unset !important;
+      margin: 0 !important;
+      padding: 10px 0 10px 20px !important;
+      text-align: left !important;
+      width: 100% !important;
+      background-color: #fff !important;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1) !important;
+      z-index: 1000 !important;
+    }
+
+    /* 调整文档标题样式 */
+    .app-name-link {
+      font-size: 20px !important;
+      font-weight: bold !important;
+      padding-top: 15px !important;
+      display: block !important;
+    }
+
+    /* 调整内容区域的位置 */
+    #main {
+      padding-top: 70px !important;
+    }
+
+    /* 调整侧边栏位置 */
+    .sidebar {
+      padding-top: 70px !important;
+    }
+
+    /* 导航栏主项样式 */
+    .app-nav > ul > li {
+      display: inline-block !important;
+      margin: 0 10px !important;
+      position: relative !important;
+    }
+
+    .app-nav > ul > li > a {
+      font-weight: bold !important;
+      font-size: 16px !important;
+      color: #42b983 !important;
+      padding: 8px 12px !important;
+      border-radius: 4px !important;
+      text-decoration: none !important;
+      transition: all 0.3s !important;
+    }
+
+    .app-nav > ul > li > a:hover {
+      background-color: rgba(66, 185, 131, 0.1) !important;
+      color: #42b983 !important;
+    }
+
+    /* 下拉菜单容器 */
+    .app-nav ul li ul {
+      display: none !important;
+      position: absolute !important;
+      top: 100% !important;
+      left: 0 !important;
+      width: max-content !important;  /* 自动适应内容宽度 */
+      min-width: 200px !important;
+      background-color: #fff !important;
+      border-radius: 4px !important;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+      padding: 8px 0 !important;
+      z-index: 1001 !important;
+      max-height: none !important;
+      overflow: visible !important;
+    }
+
+    /* 鼠标悬停时显示下拉菜单 */
+    .app-nav ul li:hover ul {
+      display: block !important;
+    }
+
+    /* 下拉菜单项 */
+    .app-nav ul li ul li {
+      display: block !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      white-space: nowrap !important;  /* 确保文本不换行 */
+    }
+
+    .app-nav ul li ul li a {
+      display: block !important;
+      padding: 8px 16px !important;
+      white-space: nowrap !important;
+      font-size: 14px !important;
+      color: #505c6e !important;
+      text-decoration: none !important;
+      transition: all 0.2s !important;
+    }
+
+    .app-nav ul li ul li a:hover {
+      background-color: #f8f8f8 !important;
+      color: #42b983 !important;
+    }
+  </style>
 </body>
-</html>
+</html> 

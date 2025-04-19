@@ -10,3 +10,4 @@
 * [模型训练环境配置指南](model-training-environment-setup.md) 
 * [Ubuntu远程桌面配置指南](ubuntu-remote-desktop-guide.md) 
 * [GitHub SSH 连接设置指南](github-ssh-setup-guide.md) 
+* [视频AI笔记生成系统开发指南](video-ai-notes-system-guide.md) 

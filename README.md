@@ -15,6 +15,7 @@
 - [模型训练环境配置指南](model-training-environment-setup.md) - 机器学习模型训练环境的配置和优化指南
 - [Ubuntu远程桌面配置指南](ubuntu-remote-desktop-guide.md) - Ubuntu系统中配置远程桌面访问的方法
 - [GitHub SSH 连接设置指南](github-ssh-setup-guide.md) - 解决GitHub连接问题，配置SSH密钥认证的完整教程
+- [视频AI笔记生成系统开发指南](video-ai-notes-system-guide.md) - 基于先进多模态AI模型构建的视频内容智能笔记生成系统
 
 ## 主要特性
 
@@ -23,6 +24,7 @@
 - 命令行工具使用
 - 常见问题解答
 - 服务器与虚拟化环境部署
+- AI应用开发技术
 
 ## 文档更新
 
